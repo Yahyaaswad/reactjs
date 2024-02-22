@@ -1,0 +1,61 @@
+
+.dashboard{
+    min-height: 100vh;
+    background-color: #f7f8fa;
+}
+.table.proimg{
+    object-fit:cover;
+
+   
+}
+.table.td{
+    
+    justify-content: center;
+    text-align: center;
+}
+.table.th{
+    text-align: center;
+    
+}
+
+.updateOrderButton {
+    background-color: #3498db; /* لون سماوي */
+    color: #fff; /* لون النص أبيض */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 200px;
+  }
+  
+  .updateOrderButton:hover,
+  .updateOrderButton:active {
+    background-color: #2980b9; /* لون سماوي داكن عند التحويل */
+  }
+  
+  .newOrderButton {
+    background-color: #2ecc71; /* لون أخضر */
+    color: #fff; /* لون النص أبيض */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    top: 170px; /* أسفل الزر السابق بمسافة 10px */
+    right: 20px;
+    width: 200px;
+  }
+  
+  .newOrderButton:hover,
+  .newOrderButton:active {
+    background-color: #27ae60; /* لون أخضر داكن عند التحويل */
+  }
+
+  .ooooo{
+    visibility:hidden;
+    width: 0px;
+    height: 0px;
+  }
